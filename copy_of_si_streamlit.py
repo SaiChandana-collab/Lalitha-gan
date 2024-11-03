@@ -8,8 +8,8 @@ Original file is located at
 """
 #!pip install streamlit
 
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile image_enhancement.py
