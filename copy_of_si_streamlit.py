@@ -116,11 +116,4 @@ if uploaded_file is not None:
  with col8:
      st.image(smoothed_v4, caption="Smoothed", use_column_width=True, channels="GRAY") 
 
-"""! pip install streamlit -qy
-!wget -q -O - ipv4.icanhazip.com
-! streamlit run image_enhancement.py & npx localtunnel --port 8501
-
-! pip install streamlit -qy
-!wget -q -O - ipv4.icanhazip.com
-! streamlit run image_enhancement.py & npx localtunnel --port 8501"""
 
