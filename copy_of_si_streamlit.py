@@ -119,11 +119,11 @@ drive.mount('/content/drive')
 # 
 #
 
-! pip install streamlit -qy
+"""! pip install streamlit -qy
 !wget -q -O - ipv4.icanhazip.com
 ! streamlit run image_enhancement.py & npx localtunnel --port 8501
 
 ! pip install streamlit -qy
 !wget -q -O - ipv4.icanhazip.com
-! streamlit run image_enhancement.py & npx localtunnel --port 8501
+! streamlit run image_enhancement.py & npx localtunnel --port 8501"""
 
