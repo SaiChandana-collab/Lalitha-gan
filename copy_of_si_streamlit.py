@@ -12,12 +12,12 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 # Commented out IPython magic to ensure Python compatibility.
- %%writefile image_enhancement.py
- import numpy as np
- import streamlit as st
- import cv2
- from tensorflow.keras.models import load_model
- import tensorflow as tf
+%%writefile image_enhancement.py
+import numpy as np
+import streamlit as st
+import cv2
+from tensorflow.keras.models import load_model
+import tensorflow as tf
  
  # Define the SSIM-based loss function
  def ssim_loss(y_true, y_pred):
