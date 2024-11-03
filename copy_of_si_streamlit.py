@@ -23,8 +23,8 @@ import tensorflow as tf
 def ssim_loss(y_true, y_pred):
     return 1 - tf.reduce_mean(tf.image.ssim(y_true, y_pred, max_val=1.0))
  
-enhanced_autoencoder_v3 = load_model('/content/drive/MyDrive/Gate/enhanced_autoencoder_v3_copy.h5', custom_objects={'ssim_loss': ssim_loss})
-enhanced_autoencoder_v4 = load_model('/content/drive/MyDrive/Gate/enhanced_autoencoder_v4_copy.h5', custom_objects={'ssim_loss': ssim_loss})
+enhanced_autoencoder_v3 = load_model('enhanced_autoencoder_v3_copy.h5', custom_objects={'ssim_loss': ssim_loss})
+enhanced_autoencoder_v4 = load_model('enhanced_autoencoder_v4_copy.h5', custom_objects={'ssim_loss': ssim_loss})
 
 def preprocess_image(image):
      # Convert to grayscale and resize
